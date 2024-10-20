@@ -69,14 +69,14 @@ def stream_markup_timer(_, chat_id, played, dur):
 
                 text="ᴜᴘᴅᴀᴛᴇ",
 
-                url=f"t.me/C0DE_SEARCH",
+                url=f"t.me/Krishnetwork",
 
             ),
             InlineKeyboardButton(
 
                 text="sᴜᴘᴘᴏʀᴛ",
 
-                url=f"{SUPPORT_CHAT}",
+                url=f"t.me/krishsupport",
 
             ),
         ],
@@ -98,14 +98,14 @@ def stream_markup(_, chat_id):
 
                 text="ᴜᴘᴅᴀᴛᴇ",
 
-                url=f"t.me/C0DE_SEARCH",
+                url=f"t.me/krishnetwork",
 
             ),
             InlineKeyboardButton(
 
                 text="sᴜᴘᴘᴏʀᴛ",
 
-                url=f"{SUPPORT_CHAT}",
+                url=f"t.me/krishsupport",
 
             ),
         ],
