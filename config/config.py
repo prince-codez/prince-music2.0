@@ -11,16 +11,16 @@ API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "lx44kk")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "itzAsuraa")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "syn_ixbot")
+BOT_USERNAME = getenv("BOT_USERNAME", "TanuMusicxBot")
 
 #❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "Sinx")
+BOT_NAME = getenv("BOT_NAME", "TANU MUSIC")
 
 #❖ get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "🝐꯭ 𝖲ꭙ 𝐀ꜱꜱɪꜱᴛᴀɴᴛ˼")
+ASSUSERNAME = getenv("ASSUSERNAME", "TANU_ASS")
 
 #❖ Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -31,10 +31,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 
 #❖  Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002115990090"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001929735324"))
 
 #❖ Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7458057585"))
+OWNER_ID = int(getenv("OWNER_ID", "7453278496"))
 
 #❖  Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Krishnetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Krishsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/krishnetwork")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/krishsupport")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
