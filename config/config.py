@@ -11,10 +11,10 @@ API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "itzAsuraa")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "lx44kk")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "TanuMusicxBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "syn_ixbot")
 
 #❖  Don't Add style font 
 BOT_NAME = getenv("BOT_NAME", "TANU MUSIC")
