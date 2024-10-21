@@ -13,15 +13,15 @@ start_txt = """
 async def start(_, msg):
     buttons = [
         [
-          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/AsuraaSupports"),
-          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://github.com/itzAsuraa/TanuMusic")
+          InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/krishSupport"),
+          InlineKeyboardButton("ʀᴇᴘᴏ", url="https://graph.org/file/5922a83b355489ba0853a.mp4")
           ],
     ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://envs.sh/SSL.jpg",
+        photo="https://i.ibb.co/2FSqhSr/photo-2024-09-19-18-33-46-7416425646991081500.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
