@@ -89,7 +89,7 @@ Config vars are basically the variables which configure or modify bot to functio
 ## Images/Thumbnail Vars
 
 - You can change images which are used in Tanu Music Bot.
-- You can generate telegaph links from [@TanuMusicxBot](http://t.me/TanuMusicxBot) and use it here.
+- You can generate telegaph links from [@syn_ixbot](http://t.me/syn_ixbot) and use it here.
 
 1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
 2. `PING_IMG_URL` : Image which comes on /ping command of bot.
