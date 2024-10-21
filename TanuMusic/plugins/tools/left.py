@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 BUTTONS = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/TanuMusicxBot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/syn_ixbot?startgroup=true"),
     ],
 ]
 
