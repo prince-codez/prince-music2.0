@@ -26,5 +26,5 @@ async def send_message(chat_id, text, reply=None):
             )
             await protect_message(chat_id, message.id)
         except Exception as e:
-            return await app.send_message(LOG_GROUP_ID, e)
+            return await app.send_message(LOGGER_ID, e)
           
