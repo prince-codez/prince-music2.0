@@ -1,4 +1,4 @@
-from config import LOG_GROUP_ID
+from config import LOGGER_ID
 from TanuMusic import app
 
 protected_messages = {}
