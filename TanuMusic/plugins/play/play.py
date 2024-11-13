@@ -1,40 +1,31 @@
-import asyncio
 import random
 import string
-from time import time
 
 from pyrogram import filters
-from pyrogram.errors import FloodWait
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from config import BANNED_USERS, lyrical
-from Tanumusic import LOGGER, Apple, Resso, Saavn, SoundCloud, Spotify, Telegram, YouTube, app
-from TanuMusic.core.call import ERA
+from TanuMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from TanuMusic.core.call import Tanu
 from TanuMusic.utils import seconds_to_min, time_to_seconds
 from TanuMusic.utils.channelplay import get_channeplayCB
-from TanuMusic.utils.database import add_served_chat, get_assistant, is_video_allowed
 from TanuMusic.utils.decorators.language import languageCB
 from TanuMusic.utils.decorators.play import PlayWrapper
 from TanuMusic.utils.formatters import formats
-from TanuMusic.utils.inline.play import (
+from TanuMusic.utils.inline import (
+    botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from TanuMusic.utils.inline.playlist import botplaylist_markup
 from TanuMusic.utils.logger import play_logs
 from TanuMusic.utils.stream.stream import stream
-
-user_last_message_time = {}
-user_command_count = {}
-SPAM_WINDOW_SECONDS = 5  # Set the time window for spam checks (5 seconds for example)
-SPAM_THRESHOLD = 2
+from config import BANNED_USERS, lyrical
 
 
-@app.on_message(
+ @app.on_message(
     filters.command(
         [
             "play",
