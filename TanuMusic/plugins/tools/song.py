@@ -56,7 +56,7 @@ async def handle_song(client, message):
              # Placeholder for channel name
 
             # Custom caption
-            caption = f"""❖ {title}\n\n● ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ {message.from_user.mention}\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹ ᴛᴀɴᴜ ꭙ ᴍᴜsɪᴄ™"""
+            caption = f"""❖ {title}\n\n● ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ {message.from_user.mention}\n❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ ˹ 𝐊ʀɪsʜ ꭙ ᴍᴜsɪᴄ™"""
                 
             # Send the audio file with custom caption
             with open(filename, "rb") as audio_file:
